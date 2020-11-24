@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="131dp"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal"
+        android:text="EUPHORICA"
+        android:textColor="#E1D9A6"
+        android:textSize="38sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="115dp"
+        android:gravity="center_horizontal"
+        android:text="Strum Away with Tuning and Pace"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
